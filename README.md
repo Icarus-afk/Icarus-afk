@@ -93,9 +93,8 @@
   </a>
 </div>
 
-
 ###
 
-<img src="https://raw.githubusercontent.com/Icarus-afk/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/Icarus-afk/Icarus-afk/output/snake.svg" alt="Snake animation" />
 
 ###
