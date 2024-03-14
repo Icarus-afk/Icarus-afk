@@ -10,7 +10,7 @@
   <img src="https://github-profile-trophy.vercel.app?username=Icarus-afk&theme=radical&no-bg=true" height="150" alt="trophy graph"  />
 </div>
 
-<br> 
+###
 
 <img align="right" height="150" src="https://www.reactiongifs.com/r/2012/06/homer_lurking.gif"  />
 
