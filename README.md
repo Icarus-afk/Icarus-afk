@@ -1,4 +1,57 @@
-<h1 align="center">Ehasan Ahmed</h1>
+it("should not issue a ticket if the event does not exist", async () => {
+    const invalidEventId = 9999; // Non-existent event ID
+    const userAddress = accounts[1];
+
+    try {
+        await ticketInstance.issueTicket(userAddress, invalidEventId);
+        assert.fail("Should not be able to issue a ticket for a non-existent event");
+    } catch (error) {
+        assert.include(error.message, "Event does not exist", "Error message should indicate non-existent event");
+    }
+});
+
+it("should not validate a ticket if the event does not exist", async () => {
+    const invalidEventId = 9999; // Non-existent event ID
+    const userAddress = accounts[1];
+
+    try {
+        const isTicketValid = await ticketInstance.isTicketValid(userAddress, invalidEventId);
+        assert.fail("Should not be able to validate a ticket for a non-existent event");
+    } catch (error) {
+        assert.include(error.message, "Event does not exist", "Error message should indicate non-existent event");
+    }
+});
+
+it("should not issue a ticket if the total tickets for the event are sold out", async () => {
+    const eventId = 0;
+    const userAddress = accounts[2];
+
+    // Assume that the total tickets for the event are already sold out
+    try {
+        await ticketInstance.issueTicket(userAddress, eventId);
+        assert.fail("Should not be able to issue a ticket if the total tickets for the event are sold out");
+    } catch (error) {
+        assert.include(error.message, "No more tickets available", "Error message should indicate sold out tickets");
+    }
+});
+
+it("should not issue a ticket if the contract is paused", async () => {
+    const eventId = 0;
+    const userAddress = accounts[2];
+
+    // Assume that the contract is paused
+    await ticketInstance.pause({ from: accounts[0] });
+
+    try {
+        await ticketInstance.issueTicket(userAddress, eventId);
+        assert.fail("Should not be able to issue a ticket if the contract is paused");
+    } catch (error) {
+        assert.include(error.message, "Pausable: paused", "Error message should indicate paused contract");
+    }
+
+    // Unpause the contract after the test
+    await ticketInstance.unpause({ from: accounts[0] });
+});<h1 align="center">Ehasan Ahmed</h1>
 
 ###
 
@@ -128,12 +181,6 @@
 <br> 
 
 ###
-
-<div align="center">
-
-   <img src = "https://spotify-recently-played-readme.vercel.app/api?user=0j58ocpwyru6mpyt3n3lwpepz&unique={true|1|on|yes}" />
-
-</div>
 
 <!-- ![align="center"]( ) -->
 
