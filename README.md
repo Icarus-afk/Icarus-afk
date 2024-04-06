@@ -130,7 +130,10 @@
 
 ###
 
+<div align="center">
+  <a href="https://visitcount.itsvg.in">
+    <img src = "https://visitcount.itsvg.in/api?id=Icarus-afk&icon=5&color=1">
+  </a>
+</div>
 
----
-[![](https://visitcount.itsvg.in/api?id=Icarus-afk&icon=5&color=1)](https://visitcount.itsvg.in)
 ###
