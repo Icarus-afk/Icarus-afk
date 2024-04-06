@@ -6,13 +6,13 @@
   <img src="https://github-readme-stats.vercel.app/api?username=Icarus-afk&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=material-palenight&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img src="https://streak-stats.demolab.com?user=Icarus-afk&locale=en&mode=weekly&theme=material-palenight&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Icarus-afk&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=8&theme=material-palenight&hide_border=false" height="150" alt="languages graph"  />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Icarus-afk&theme=material-palenight&area=true&hide_border=true&hide_title=true" height="150" alt="activity-graph graph"  />
   <img src="https://github-profile-trophy.vercel.app?username=Icarus-afk&theme=radical&no-bg=true" height="150" alt="trophy graph"  />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Icarus-afk&theme=material-palenight&area=true&hide_border=true&hide_title=true" height="150" alt="activity-graph graph"  />
 </div>
 
 ###
 
-<img align="right" height="150" src="https://www.reactiongifs.com/r/2012/06/homer_lurking.gif"  />
+<img align="right" height="210" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/85295bae-9e0c-49fb-9b7a-ff8e231806f4/ddy85cl-18ad8a23-5134-462e-9cb1-2e988c94050c.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg1Mjk1YmFlLTllMGMtNDlmYi05YjdhLWZmOGUyMzE4MDZmNFwvZGR5ODVjbC0xOGFkOGEyMy01MTM0LTQ2MmUtOWNiMS0yZTk4OGM5NDA1MGMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ucMow4JR8oG8pS4MR7r1UpNLbGAJdd7H7sdh5w-pSjo"  />
 
 ###
 
@@ -86,6 +86,8 @@
   <img src="https://skillicons.dev/icons?i=gitlab" height="50" alt="gitlab logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=materialui" height="50" alt="materialui logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/putty/putty-original.svg" height="50" alt="putty logo"  />
 </div>
 
 ###
@@ -125,11 +127,13 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="52" height="40" alt="whatsapp logo"  />
   </a>
 </div>
-<br> 
 
 ###
 
-<!-- ![align="center"]( ) -->
-
+<div align="center">
+  <a href="https://open.spotify.com/user/Icarus">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=Icarus&count=5" alt="Spotify recently played"  />
+  </a>
+</div>
 
 ###
