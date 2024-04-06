@@ -130,10 +130,7 @@
 
 ###
 
-<div align="center">
-  <a href="https://open.spotify.com/user/Icarus">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=Icarus&count=5" alt="Spotify recently played"  />
-  </a>
-</div>
 
+---
+[![](https://visitcount.itsvg.in/api?id=Icarus-afk&icon=5&color=1)](https://visitcount.itsvg.in)
 ###
