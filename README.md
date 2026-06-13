@@ -9,7 +9,7 @@ Welcome to the chaos.
 
 <p align="center">
   <br/>
-    <img src="https://github-readme-streak-vercel.vercel.app?user=Icarus-afk&theme=date_night" />
+    <img src="https://streak-stats.demolab.com?user=Icarus-afk&theme=date_night" />
   <br/>
 </p>
 ## 🌐 Socials:
