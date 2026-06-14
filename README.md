@@ -1,7 +1,7 @@
 <h3>Hi, I'm Ehasan 🦊</h3>
 <p>
-I build web apps — sometimes they even work.<br>
-Django • NextJS • Node • MySQL • MongoDB • Whatever the project demands.<br>
+I build systems— sometimes they even work.<br>
+Django • NextJS • Go • MySQL • MongoDB • Whatever the project demands.<br>
 Into complex systems, clean UIs, and automating things that were fine manually.<br>
 "It works." → "Why?" → "It’s broken."<br>
 Welcome to the chaos.
