@@ -23,7 +23,7 @@
       "name": "Controlplane-metro Widget",
       "position": {
         "x": 0,
-        "y": 232
+        "y": 48
       },
       "size": {
         "width": 800,
@@ -32,71 +32,120 @@
       "config": {
         "layoutType": "hero",
         "accentColor": "#55ffff",
-        "secondaryColor": "#c084fc"
+        "secondaryColor": "#c084fc",
+        "lockAspectRatio": false,
+        "selectedRepos": [
+          "Cartographer",
+          "Nova-Runtime",
+          "IoT-Greenhouse-System",
+          "DeviceOS",
+          "SparkDB",
+          "DPanel"
+        ],
+        "maxRepos": 6,
+        "repoSortBy": "name"
       },
       "locked": false,
       "visible": true,
       "zIndex": 8
     },
     {
-      "instanceId": "widget_1787852004577",
-      "widgetId": "controlplane-specimen",
-      "name": "Controlplane-specimen Widget",
-      "position": {
-        "x": 0,
-        "y": 504
-      },
-      "size": {
-        "width": 800,
-        "height": 330
-      },
-      "config": {
-        "layoutType": "hero",
-        "accentColor": "#55ffff",
-        "secondaryColor": "#c084fc"
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 4
-    },
-    {
-      "instanceId": "widget_1787852037440",
-      "widgetId": "codeweb-showcase-cards",
-      "name": "Codeweb-showcase-cards Widget",
-      "position": {
-        "x": 0,
-        "y": 1260
-      },
-      "size": {
-        "width": 800,
-        "height": 220
-      },
-      "config": {},
-      "locked": false,
-      "visible": true,
-      "zIndex": 5
-    },
-    {
       "instanceId": "widget_1787852076220",
       "widgetId": "surveillance-telemetry",
       "name": "Surveillance-telemetry Widget",
       "position": {
-        "x": 10,
-        "y": 808
+        "x": 0,
+        "y": 360
       },
       "size": {
-        "width": 780,
+        "width": 800,
         "height": 420
       },
       "config": {
         "accentColor": "#55ffff",
         "customTitle": "Terminal Telemetry",
         "secondaryColor": "#c084fc",
-        "ledColor": "#ff5555"
+        "ledColor": "#ff5555",
+        "animationType": "fade-in",
+        "animationPreviewKey": 1,
+        "animationEasing": "spring"
       },
       "locked": false,
       "visible": true,
       "zIndex": 5
+    },
+    {
+      "instanceId": "widget_1787852493950",
+      "widgetId": "surveillance-dossier",
+      "name": "Surveillance-dossier Widget",
+      "position": {
+        "x": 0,
+        "y": 796
+      },
+      "size": {
+        "width": 800,
+        "height": 240
+      },
+      "config": {
+        "accentColor": "#55ffff",
+        "customTitle": "Subject Dossier",
+        "classRole": "Linux",
+        "rigInfo": "Debian / Linux Mint",
+        "animationType": "typewriter",
+        "animationPreviewKey": 5,
+        "animationEasing": "linear"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 6
+    },
+    {
+      "instanceId": "widget_1787852964104",
+      "widgetId": "premium-ascii-insights",
+      "name": "Premium-ascii-insights Widget",
+      "position": {
+        "x": 0,
+        "y": 1052
+      },
+      "size": {
+        "width": 400,
+        "height": 280
+      },
+      "config": {
+        "lockAspectRatio": true,
+        "transparentBackground": true,
+        "backgroundColor": "transparent",
+        "accentColor": "#3fb950",
+        "secondaryColor": "#39c5cf",
+        "borderColor": "#30363d"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    },
+    {
+      "instanceId": "widget_1787852966060",
+      "widgetId": "premium-ascii-dev-score",
+      "name": "Premium-ascii-dev-score Widget",
+      "position": {
+        "x": 360,
+        "y": 972
+      },
+      "size": {
+        "width": 440,
+        "height": 440
+      },
+      "config": {
+        "lockAspectRatio": true,
+        "transparentBackground": true,
+        "backgroundColor": "transparent",
+        "accentColor": "#3fb950",
+        "secondaryColor": "#39c5cf",
+        "borderColor": "#30363d"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 6
     }
   ],
   "globalStyles": {
