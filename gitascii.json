@@ -1,0 +1,114 @@
+{
+  "widgets": [
+    {
+      "widgetId": "header",
+      "name": "Header Widget",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 800,
+        "height": 90
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 1,
+      "instanceId": "widget_1787851189494_0"
+    },
+    {
+      "instanceId": "widget_1787851832251",
+      "widgetId": "controlplane-metro",
+      "name": "Controlplane-metro Widget",
+      "position": {
+        "x": 0,
+        "y": 232
+      },
+      "size": {
+        "width": 800,
+        "height": 350
+      },
+      "config": {
+        "layoutType": "hero",
+        "accentColor": "#55ffff",
+        "secondaryColor": "#c084fc"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 8
+    },
+    {
+      "instanceId": "widget_1787852004577",
+      "widgetId": "controlplane-specimen",
+      "name": "Controlplane-specimen Widget",
+      "position": {
+        "x": 0,
+        "y": 504
+      },
+      "size": {
+        "width": 800,
+        "height": 330
+      },
+      "config": {
+        "layoutType": "hero",
+        "accentColor": "#55ffff",
+        "secondaryColor": "#c084fc"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4
+    },
+    {
+      "instanceId": "widget_1787852037440",
+      "widgetId": "codeweb-showcase-cards",
+      "name": "Codeweb-showcase-cards Widget",
+      "position": {
+        "x": 0,
+        "y": 1260
+      },
+      "size": {
+        "width": 800,
+        "height": 220
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    },
+    {
+      "instanceId": "widget_1787852076220",
+      "widgetId": "surveillance-telemetry",
+      "name": "Surveillance-telemetry Widget",
+      "position": {
+        "x": 10,
+        "y": 808
+      },
+      "size": {
+        "width": 780,
+        "height": 420
+      },
+      "config": {
+        "accentColor": "#55ffff",
+        "customTitle": "Terminal Telemetry",
+        "secondaryColor": "#c084fc",
+        "ledColor": "#ff5555"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    }
+  ],
+  "globalStyles": {
+    "backgroundColor": "#060606",
+    "textColor": "#e5e5e5",
+    "accentColor": "#c5ff4a",
+    "borderColor": "#252525",
+    "fontFamily": "'JetBrains Mono', monospace",
+    "borderRadius": 0,
+    "padding": 24,
+    "themeMode": "dark",
+    "templateStyle": "native"
+  },
+  "templateId": "terminal"
+}
