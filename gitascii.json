@@ -24,11 +24,11 @@
       "name": "Controlplane-metro Widget",
       "position": {
         "x": 0,
-        "y": 48
+        "y": 112
       },
       "size": {
         "width": 800,
-        "height": 350
+        "height": 232
       },
       "config": {
         "layoutType": "hero",
@@ -111,11 +111,11 @@
         "y": 1052
       },
       "size": {
-        "width": 400,
-        "height": 280
+        "width": 800,
+        "height": 344
       },
       "config": {
-        "lockAspectRatio": true,
+        "lockAspectRatio": false,
         "transparentBackground": true,
         "backgroundColor": "transparent",
         "accentColor": "#ff71ce",
@@ -127,24 +127,23 @@
       "zIndex": 5
     },
     {
-      "instanceId": "widget_1787852966060",
-      "widgetId": "premium-ascii-dev-score",
-      "name": "Premium-ascii-dev-score Widget",
+      "instanceId": "widget_1787897378066",
+      "widgetId": "surveillance-title",
+      "name": "Surveillance-title Widget",
       "position": {
-        "x": 360,
-        "y": 972
+        "x": 10,
+        "y": 1412
       },
       "size": {
-        "width": 440,
-        "height": 440
+        "width": 780,
+        "height": 30
       },
       "config": {
-        "lockAspectRatio": true,
-        "transparentBackground": true,
-        "backgroundColor": "transparent",
-        "accentColor": "#ff71ce",
-        "secondaryColor": "#01cdfe",
-        "borderColor": "#3b1c45"
+        "accentColor": "#55ffff",
+        "customTitle": "Constantly Under Surveillance",
+        "customRef": "Icaurs-afk",
+        "referenceTag": "Icaurs-afk",
+        "ledColor": "#55ffff"
       },
       "locked": false,
       "visible": true,
