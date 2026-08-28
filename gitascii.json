@@ -1,4 +1,5 @@
 {
+  "username": "Icarus-afk",
   "widgets": [
     {
       "widgetId": "header",
@@ -159,5 +160,6 @@
     "themeMode": "dark",
     "templateStyle": "native"
   },
-  "templateId": "terminal"
+  "templateId": "terminal",
+  "profileSlug": "default"
 }
