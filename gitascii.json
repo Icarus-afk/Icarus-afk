@@ -32,8 +32,8 @@
       },
       "config": {
         "layoutType": "hero",
-        "accentColor": "#55ffff",
-        "secondaryColor": "#c084fc",
+        "accentColor": "#c084fc",
+        "secondaryColor": "#55ffff",
         "lockAspectRatio": false,
         "selectedRepos": [
           "Cartographer",
@@ -63,10 +63,10 @@
         "height": 420
       },
       "config": {
-        "accentColor": "#55ffff",
+        "accentColor": "#c084fc",
         "customTitle": "Terminal Telemetry",
-        "secondaryColor": "#c084fc",
-        "ledColor": "#ff5555",
+        "secondaryColor": "#55ffff",
+        "ledColor": "#ff55ff",
         "animationType": "fade-in",
         "animationPreviewKey": 1,
         "animationEasing": "spring"
@@ -88,13 +88,15 @@
         "height": 240
       },
       "config": {
-        "accentColor": "#55ffff",
+        "accentColor": "#c084fc",
         "customTitle": "Subject Dossier",
         "classRole": "Linux",
         "rigInfo": "Debian / Linux Mint",
         "animationType": "typewriter",
         "animationPreviewKey": 5,
-        "animationEasing": "linear"
+        "animationEasing": "linear",
+        "secondaryColor": "#55ffff",
+        "ledColor": "#ff55ff"
       },
       "locked": false,
       "visible": true,
@@ -116,9 +118,9 @@
         "lockAspectRatio": true,
         "transparentBackground": true,
         "backgroundColor": "transparent",
-        "accentColor": "#3fb950",
-        "secondaryColor": "#39c5cf",
-        "borderColor": "#30363d"
+        "accentColor": "#ff71ce",
+        "secondaryColor": "#01cdfe",
+        "borderColor": "#3b1c45"
       },
       "locked": false,
       "visible": true,
@@ -140,9 +142,9 @@
         "lockAspectRatio": true,
         "transparentBackground": true,
         "backgroundColor": "transparent",
-        "accentColor": "#3fb950",
-        "secondaryColor": "#39c5cf",
-        "borderColor": "#30363d"
+        "accentColor": "#ff71ce",
+        "secondaryColor": "#01cdfe",
+        "borderColor": "#3b1c45"
       },
       "locked": false,
       "visible": true,
