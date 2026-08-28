@@ -24,7 +24,7 @@
       "name": "Controlplane-metro Widget",
       "position": {
         "x": 0,
-        "y": 112
+        "y": 114
       },
       "size": {
         "width": 800,
@@ -56,7 +56,7 @@
       "name": "Surveillance-telemetry Widget",
       "position": {
         "x": 0,
-        "y": 360
+        "y": 370
       },
       "size": {
         "width": 800,
@@ -81,7 +81,7 @@
       "name": "Surveillance-dossier Widget",
       "position": {
         "x": 0,
-        "y": 796
+        "y": 814
       },
       "size": {
         "width": 800,
@@ -101,53 +101,6 @@
       "locked": false,
       "visible": true,
       "zIndex": 6
-    },
-    {
-      "instanceId": "widget_1787852964104",
-      "widgetId": "premium-ascii-insights",
-      "name": "Premium-ascii-insights Widget",
-      "position": {
-        "x": 0,
-        "y": 1052
-      },
-      "size": {
-        "width": 800,
-        "height": 344
-      },
-      "config": {
-        "lockAspectRatio": false,
-        "transparentBackground": true,
-        "backgroundColor": "transparent",
-        "accentColor": "#ff71ce",
-        "secondaryColor": "#01cdfe",
-        "borderColor": "#3b1c45"
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 5
-    },
-    {
-      "instanceId": "widget_1787897378066",
-      "widgetId": "surveillance-title",
-      "name": "Surveillance-title Widget",
-      "position": {
-        "x": 10,
-        "y": 1412
-      },
-      "size": {
-        "width": 780,
-        "height": 30
-      },
-      "config": {
-        "accentColor": "#55ffff",
-        "customTitle": "Constantly Under Surveillance",
-        "customRef": "Icaurs-afk",
-        "referenceTag": "Icaurs-afk",
-        "ledColor": "#55ffff"
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 6
     }
   ],
   "globalStyles": {
@@ -155,11 +108,12 @@
     "textColor": "#e5e5e5",
     "accentColor": "#c5ff4a",
     "borderColor": "#252525",
-    "fontFamily": "'JetBrains Mono', monospace",
+    "fontFamily": "Inter",
     "borderRadius": 0,
     "padding": 24,
     "themeMode": "dark",
-    "templateStyle": "native"
+    "templateStyle": "native",
+    "transparentBackground": false
   },
   "templateId": "terminal",
   "profileSlug": "default"
