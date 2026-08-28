@@ -101,6 +101,30 @@
       "locked": false,
       "visible": true,
       "zIndex": 6
+    },
+    {
+      "instanceId": "widget_1787897846936",
+      "widgetId": "premium-ascii-dev-score",
+      "name": "Premium-ascii-dev-score Widget",
+      "position": {
+        "x": 0,
+        "y": 1070
+      },
+      "size": {
+        "width": 800,
+        "height": 288
+      },
+      "config": {
+        "lockAspectRatio": false,
+        "transparentBackground": true,
+        "backgroundColor": "transparent",
+        "accentColor": "#3fb950",
+        "secondaryColor": "#39c5cf",
+        "borderColor": "#30363d"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
     }
   ],
   "globalStyles": {
